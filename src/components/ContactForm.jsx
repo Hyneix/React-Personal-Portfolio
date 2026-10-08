@@ -39,10 +39,8 @@ function ContactForm() {
       className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm"
     >
 
-      {/* All form fields */}
       <div className="space-y-4">
 
-        {/* Name */}
         <div>
           <label>Name</label>
           <input
@@ -53,7 +51,6 @@ function ContactForm() {
           />
         </div>
 
-        {/* Email */}
         <div>
           <label>Email</label>
           <input
@@ -64,7 +61,6 @@ function ContactForm() {
           />
         </div>
 
-        {/* Subject */}
         <div>
           <label>Subject</label>
           <input
@@ -75,7 +71,6 @@ function ContactForm() {
           />
         </div>
 
-        {/* Message */}
         <div>
           <label>Message</label>
           <textarea
@@ -88,14 +83,12 @@ function ContactForm() {
 
       </div>
 
-      {/* Error */}
       {error && (
         <p className="mt-4 text-red-600">
           {error}
         </p>
       )}
 
-      {/* Success */}
       {sent && (
         <p className="mt-4 rounded-md bg-neutral-100 p-3">
           Thanks! Your message has been sent.
