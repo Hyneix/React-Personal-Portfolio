@@ -7,3 +7,5 @@ body {
 }
 
    @theme { --font-sans: "Poppins", sans-serif; }
+
+@theme { --color-accent: #171717; }

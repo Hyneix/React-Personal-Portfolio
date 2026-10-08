@@ -25,7 +25,7 @@ function Sidebar() {
       </div>
 
       <a
-        href="/cv.pdf" download className="mt-10 rounded-full border-2 border-white px-8 py-2.5 text-sm font-medium transition hover:bg-white hover:text-[#04b4e0] hover:-translate-y-1 hover:shadow-md" >
+        href="/cv.pdf" download className="mt-10 rounded-full border-2 border-white px-8 py-2.5 text-sm font-medium transition hover:bg-white hover:text-neutral-900 hover:-translate-y-1 hover:shadow-md" >
         Download CV
       </a>
 

@@ -42,7 +42,7 @@ function Navbar() {
       "group relative flex h-10 w-10 items-center justify-center rounded-full text-2xl transition ";
 
     if (isActive) {
-      return base + "text-[#04b4e0]";
+      return base + "text-neutral-900";
     }
     return base + "text-neutral-400 hover:text-neutral-700";
   }
@@ -93,7 +93,7 @@ function Navbar() {
         <button
           onClick={goNext}
           aria-label="Next page"
-          className="text-xl text-neutral-400 hover:text-[#04b4e0]"
+          className="text-xl text-neutral-400 hover:text-neutral-900"
         >
           <ChevronRight />
         </button>
@@ -101,7 +101,7 @@ function Navbar() {
         <button
           onClick={goPrevious}
           aria-label="Previous page"
-          className="text-xl text-neutral-400 hover:text-[#04b4e0]"
+          className="text-xl text-neutral-400 hover:text-neutral-900"
         >
           <ChevronLeft />
         </button>
