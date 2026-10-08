@@ -38,7 +38,7 @@ export const education = [
 
 export const projects = [
   { id: 1, title: "Room Booking System", category: "HTML/CSS", description: "Browse rooms and pick booking dates.", tech1: "HTML/CSS", tech2: "JavaScript", link: "#", github: "https://github.com/Hyneix/Project-I-4th-Semester" },
-  { id: 2, title: "Personal Porfolio", category: "React", description: "Presonal Portfolio created using simple React.js  .", tech1: "React", tech2: "JavaScript", link: "#", github: "#" },
+  { id: 2, title: "Personal Porfolio", category: "React", description: "Presonal Portfolio created using simple React.js  .", tech1: "React", tech2: "JavaScript", link: "https://sushant-karki-portfolio.vercel.app/", github: "https://github.com/Hyneix/React-Personal-Portfolio" },
   // { id: 3, title: "News Portal", category: "HTML/CSS", description: "Responsive news layout with categories.", tech1: "HTML", tech2: "CSS", link: "#", github: "#" },
   // { id: 4, title: "Task Management App", category: "JavaScript", description: "Add, complete and delete tasks.", tech1: "JavaScript", tech2: "CSS", link: "#", github: "#" },
   // { id: 5, title: "Landing Page", category: "HTML/CSS", description: "Modern landing page for a product.", tech1: "HTML", tech2: "CSS", link: "#", github: "#" },
