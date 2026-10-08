@@ -30,7 +30,7 @@ export const skills = [
 
 export const education = [
   { id: 1, year: "2024 - Present", institution: "Shahid Smarak College, Kirtipur", degree: "Bachelors in Computer Application", description: "Currently on 4th Semester" },
-  { id: 2, year: "2021 - 2025", institution: "Nightingale International College +2", degree: "Higher Secondary (Management)", description: "Completed +2 Level with Computer Science as Majot" },
+  { id: 2, year: "2021 - 2024", institution: "Nightingale International College +2", degree: "Higher Secondary (Management)", description: "Completed +2 Level with Computer Science as Majot" },
   { id: 3, year: "2019 - 2021", institution: "Ujjwal Shishu Niketan Academy", degree: "Secondary Education Examination", description: "Completed secondary education" },
 ];
 
